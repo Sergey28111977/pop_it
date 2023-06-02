@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 145px;
+    color: white;
+    font-weight: 900;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 900;
+    text-align: center;
+}
+
+button {
+    border: none;
+}
+
+.page1-border {
+    background-color: #ffc069;
+    min-height: 728px;
+}
+
+.page1 {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.page1 img {
+    height: 900px;
+    top: -87px;
+    left: 0;
+    scale: 81%;
+    position: absolute;
+}
+
+header {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    width: 332px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    display: inline;
+}
+
+.container1 {
+    position: relative;
+}
+
+.container1 .title {
+    margin: 127px 0 -1px -9px;
+}
+
+.container1 .text { 
+    font-size: 23px;
+    font-weight: bold;
+    max-width: 485px;
+    width: 100%;
+    color: white;
+    letter-spacing: 0.01em;
+    line-height: 125%;
+}
+
+.container1 .btn {
+    margin: 87px 0 0 -0;
+    width: 252px;
+    height: 67px;
+    font-size: 26px;
+    font-weight: bold;
+    background: #ccf3f0;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page2 {
+    max-width: 845px;
+    width: 100%;
+    min-height: 205px;
+    margin: 0 auto;
+    padding-top: 108px;
+    color: black;
+}
+
+.page2 p {
+    text-align: center;
+}
+
+.page2 p {
+    margin-top: 17px;
+    line-height: 143%;
+}
+
+.page3 {
+    max-width: 964px;
+    width: 100%;
+    min-height: 424px;
+    margin: 0 auto;
+    padding-top: 110px;
+}
+
+.square img,
+.amongus img,
+.round img {
+    width: 150px;
+    margin: 44px 4px 0 7px;
+}
+
+.page3-border {
+    background-color: #ccf3f0;
+}
+
+.square p, 
+.amongus p,
+.round p {
+    letter-spacing: -0.01em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.square .btn,
+.amongus .btn,
+.round .btn {
+    margin: 16px 0 0 17px;
+    width: 130px;
+    background: #ffc069;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: white;
+    cursor: pointer;
+}
+
+.page4 {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 567px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.page4 .bg-grid {
+    position: absolute;
+    top: 85px;
+    left: -120px;
+    scale: 83%;
+}
+
+.container4 .photo {
+    float: right;
+    width: 451px;
+    margin-top: 107px;
+    position: relative;
+}
+
+.container4 h2 {
+    text-align: left;
+    padding-top: 207px;
+    position: relative;
+}
+
+.container4 p {
+    position: relative;
+    margin-top: 29px;
+    max-width: 703px;
+    width: 100%;
+    line-height: 118%;
+}
+
+footer {
+    background: #303030;
+    min-height: 106px;
+}
+
+footer .menu {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 42px;
+}
+
+footer a {
+    color: white;
+    font-size: 16px;
+    
+}
+
+footer ul li:nth-child(1) a {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 560px) {
+    .page1 img {
+        scale: 50%;
+        left: -650px;
+    }
+
+    .container3,
+    .menu,
+    header {
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+    }  
+}
+
