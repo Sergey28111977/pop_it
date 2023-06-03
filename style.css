@@ -38,12 +38,13 @@ button {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
+    position: relative;
 }
 
 .page1 img {
     height: 900px;
     top: -87px;
-    left: 0;
+    left: -120px;
     scale: 81%;
     position: absolute;
 }
